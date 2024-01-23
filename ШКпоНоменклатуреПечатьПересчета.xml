@@ -26,6 +26,7 @@
 		<ChildObjects>
 			<Form>Форма</Form>
 			<Template>МакетЗагрузкиНоменклатуры</Template>
+			<Template>МакетПечатнойФормы</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
