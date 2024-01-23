@@ -3,16 +3,31 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
-			<Button name="ФормаЗагрузитьНоменклатуру" id="4">
-				<Type>CommandBarButton</Type>
-				<DefaultButton>true</DefaultButton>
-				<CommandName>Form.Command.ЗагрузитьНоменклатуру</CommandName>
-				<ExtendedTooltip name="ФормаЗагрузитьНоменклатуруРасширеннаяПодсказка" id="5"/>
-			</Button>
 			<Button name="ФормаСформироватьПечатнуюФорму" id="6">
 				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.СформироватьПечатнуюФорму</CommandName>
 				<ExtendedTooltip name="ФормаСформироватьПечатнуюФормуРасширеннаяПодсказка" id="7"/>
+			</Button>
+			<Button name="ФормаСохранить" id="8">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.Сохранить</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Write</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаСохранитьРасширеннаяПодсказка" id="9"/>
+			</Button>
+			<Button name="ФормаОбновитьТабДок" id="10">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.ОбновитьТабДок</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Refresh</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаОбновитьТабДокРасширеннаяПодсказка" id="11"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -23,6 +38,12 @@
 	<ChildItems>
 		<SpreadSheetDocumentField name="ТабДок" id="1">
 			<DataPath>ТабДок</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
 			<ShowGrid>true</ShowGrid>
 			<Edit>true</Edit>
 			<ContextMenu name="ТабДокКонтекстноеМеню" id="2"/>
@@ -103,21 +124,6 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗагрузитьНоменклатуру" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить номенклатуру</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить номенклатуру</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ЗагрузитьНоменклатуру</Action>
-		</Command>
 		<Command name="СформироватьПечатнуюФорму" id="2">
 			<Title>
 				<v8:item>
@@ -132,6 +138,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьПечатнуюФорму</Action>
+		</Command>
+		<Command name="Сохранить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+		<Command name="ОбновитьТабДок" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить таб док</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить таб док</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьТабДок</Action>
 		</Command>
 	</Commands>
 </Form>
