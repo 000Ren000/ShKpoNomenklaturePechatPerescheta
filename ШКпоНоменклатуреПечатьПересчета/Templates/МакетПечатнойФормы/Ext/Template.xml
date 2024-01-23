@@ -79,61 +79,10 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
+			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>5</index>
-		<row>
-			<formatIndex>9</formatIndex>
-			<c>
-				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -149,7 +98,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -176,17 +125,17 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -202,35 +151,35 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>6</index>
-		<indexTo>7</indexTo>
+		<index>5</index>
+		<indexTo>6</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>8</index>
+		<index>7</index>
 		<row>
 			<formatIndex>13</formatIndex>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -241,7 +190,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -258,17 +207,17 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -278,35 +227,35 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
-		<indexTo>10</indexTo>
+		<index>8</index>
+		<indexTo>9</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>10</index>
 		<row>
 			<c>
 				<i>1</i>
@@ -357,9 +306,9 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>8</defaultFormatIndex>
-	<height>13</height>
-	<vgRows>13</vgRows>
+	<defaultFormatIndex>9</defaultFormatIndex>
+	<height>12</height>
+	<vgRows>12</vgRows>
 	<merge>
 		<r>0</r>
 		<c>0</c>
@@ -371,32 +320,32 @@
 		<w>10</w>
 	</merge>
 	<merge>
-		<r>5</r>
+		<r>4</r>
 		<c>1</c>
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>5</r>
+		<r>4</r>
 		<c>4</c>
 		<w>3</w>
 	</merge>
 	<merge>
-		<r>5</r>
+		<r>4</r>
 		<c>8</c>
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>8</r>
+		<r>7</r>
 		<c>1</c>
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>8</r>
+		<r>7</r>
 		<c>4</c>
 		<w>3</w>
 	</merge>
 	<merge>
-		<r>8</r>
+		<r>7</r>
 		<c>8</c>
 		<w>1</w>
 	</merge>
@@ -404,8 +353,8 @@
 		<name>ПодвалТаблицы</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>11</beginRow>
-			<endRow>12</endRow>
+			<beginRow>10</beginRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -414,8 +363,8 @@
 		<name>СтрокаТаблицы</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>8</beginRow>
-			<endRow>8</endRow>
+			<beginRow>7</beginRow>
+			<endRow>7</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -435,7 +384,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>4</beginRow>
-			<endRow>5</endRow>
+			<endRow>4</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -476,10 +425,10 @@
 		<fillType>Template</fillType>
 	</format>
 	<format>
-		<width>72</width>
+		<height>90</height>
 	</format>
 	<format>
-		<height>90</height>
+		<width>72</width>
 	</format>
 	<format>
 		<font>1</font>
